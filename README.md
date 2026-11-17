@@ -23,11 +23,11 @@ and under the git tag [`v1-paper`](../../tree/v1-paper).
 
 Every site is a **three-level transmon** (weakly anharmonic oscillator, $\alpha = -0.2$ GHz):
 
-$$
-\frac{H(t)}{h} = \sum_i \Big[f_i\, n_i + \frac{\alpha}{2}\, n_i(n_i-1)\Big]
- + \sum_{\langle ij\rangle} g_{ij}\,(a_i+a_i^\dagger)(a_j+a_j^\dagger)
- - 2A \sum_k e^{-(t-t_k)^2/2\sigma^2} \sum_{c} n_c ,
-$$
+```math
+\frac{H(t)}{h} = \sum_i \Big[ f_i\, n_i + \frac{\alpha}{2}\, n_i(n_i-1) \Big]
++ \sum_{\langle ij\rangle} g_{ij}\,(a_i + a_i^\dagger)(a_j + a_j^\dagger)
++ 2A \sum_k e^{-(t-t_k)^2/2\sigma^2} \sum_{c} n_c
+```
 
 with frequencies in GHz and times in ns ($2\pi$ explicit). The flux pulse lowers the coupler frequency,
 $f_c(t) = f_c - 2A\,e^{-t^2/2\sigma^2}$. One Floquet period is the pulse window ($\pm 3\sigma$) plus a free
