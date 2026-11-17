@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Floquet quantum gates with Gaussian flux kicks"
+type: software
+authors:
+  - family-names: "De Luca"
+    given-names: "Andrea"
+    affiliation: "Università degli Studi dell'Aquila"
+repository-code: "https://github.com/Capaspace/Floquet_quantum_gates"
+license: MIT
+version: "2.0"
+date-released: "2026-11-17"
+keywords:
+  - Floquet
+  - quantum gates
+  - superconducting qubits
+  - transmon
+  - tunable coupler
+  - CMA-ES
